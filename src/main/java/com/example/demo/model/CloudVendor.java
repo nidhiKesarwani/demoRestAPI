@@ -55,6 +55,4 @@ public class CloudVendor {
     public void setVendorPhoneNumber(String vendorPhoneNumber) {
         this.vendorPhoneNumber = vendorPhoneNumber;
     }
-
-
 }

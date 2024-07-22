@@ -18,7 +18,7 @@ public class CloudVendorController {
 
     @GetMapping("/{vendorId}")
     public CloudVendor getCloudVendorDetails(@PathVariable("vendorId") String vendorID){
-        System.out.println("Querying for ID : " + vendorID);
+
         return cloudVendorService.getCloudVendor(vendorID);
     }
 
