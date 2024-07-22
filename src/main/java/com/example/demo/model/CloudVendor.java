@@ -1,7 +1,14 @@
 package com.example.demo.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="cloud_vendor_info")
 public class CloudVendor {
-    private String vendorId;
+    @Id
+    private String vendorId; // column as vendor_id
     private String vendorName;
     private String vendorAddress;
     private String vendorPhoneNumber;
